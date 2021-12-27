@@ -1,0 +1,39 @@
+@font-face {
+  src: url(fonts/Gotham\ Book\ Regular.otf);
+  font-family: Gotham Book;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gotham book";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+}
+nav {
+  margin-bottom: 4rem;
+  font-size: 0.9rem;
+}
+nav.mainNav {
+  margin-left: 9.5rem;
+  margin-top: 0.1rem;
+}
+nav.endNav {
+  margin-right: 1.2rem;
+  margin-top: 0.1rem;
+}
+ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+}
+li {
+  margin-right: 1.7rem;
+  padding: 0.2rem;
+}
